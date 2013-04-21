@@ -1,0 +1,47 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+ >
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+	
+    <Button
+        android:id="@+id/practices"
+        android:layout_height="50dp"
+        style="@style/custButton1"
+        android:layout_marginTop="30dp"
+        android:onClick="practiceListener"
+        android:text="@string/practice_button" />
+    
+    <Button
+        android:id="@+id/calendar"
+        android:layout_height="50dp"
+        style="@style/custButton1"
+        android:layout_marginTop="30dp"
+        android:onClick="calendarListener"
+        android:text="@string/calendar_button" />
+    
+    <Button
+        android:id="@+id/disease_reporting"
+        android:layout_height="50dp"
+        style="@style/custButton1"
+        android:layout_marginTop="30dp"
+        android:onClick="reportingListener"
+        android:text="@string/reporting_button" />
+    
+    <Button
+        android:id="@+id/production"
+        android:layout_height="50dp"
+        style="@style/custButton1"
+        android:layout_marginTop="30dp"
+        android:onClick="productionListener"
+        android:text="@string/production_button" />
+    
+</LinearLayout>
+</ScrollView>

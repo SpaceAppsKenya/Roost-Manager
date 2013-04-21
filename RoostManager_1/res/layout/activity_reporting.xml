@@ -1,0 +1,48 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReportingActivity" >
+
+    <LinearLayout 
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        >
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        style="@style/custTextView"
+        android:text="Please enter a brief report of type of disease and/or symptoms and share to report."
+        />
+   <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:maxLines="6"
+        android:minLines="3"
+        android:layout_marginTop="20dp"
+        android:text="report..."
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+   <Button
+        android:id="@+id/takePic"
+        style="@style/custButton1"
+        android:text="@string/take_pic_button" 
+        android:layout_marginTop="50dp"
+	 />
+   
+   <Button
+        android:id="@+id/update"
+        style="@style/custButton1"
+        android:text="@string/post_button" 
+        android:layout_marginTop="50dp"
+	 />
+   
+	</LinearLayout>
+</ScrollView>

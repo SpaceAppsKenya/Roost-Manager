@@ -1,0 +1,70 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+ >
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+      <EditText 
+        android:id="@+id/fnameEdit"
+        android:inputType="text"
+        android:hint="First name"
+        style="@style/custEditText"
+        />
+      
+      <EditText 
+        android:id="@+id/lnameEdit"
+        android:inputType="text"
+        android:hint="Last name"
+        style="@style/custEditText"
+        />
+      
+       <EditText 
+        android:id="@+id/userEdit"
+        android:inputType="text"
+        android:hint="Username"
+        style="@style/custEditText"
+        />
+       
+    <EditText 
+        android:id="@+id/passEdit"
+        android:inputType="textPassword"
+        android:hint="Password"
+        style="@style/custEditText"
+        
+        />
+    <EditText 
+        android:id="@+id/emailEdit"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        style="@style/custEditText"
+        />
+    
+    <EditText 
+        android:id="@+id/phoneEdit"
+        android:inputType="phone|number"
+        android:hint="Phone number"
+        style="@style/custEditText"
+        />
+    
+    <EditText 
+        android:id="@+id/dobEdit"
+        android:inputType="date"
+        android:hint="Birth date"
+        style="@style/custEditText"
+        />
+    <Button
+        android:id="@+id/join"
+        style="@style/custButton1"
+        android:layout_marginTop="30dp"
+        android:onClick="joinListener"
+        android:text="@string/join_button" />
+    
+</LinearLayout>
+</ScrollView>

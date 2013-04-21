@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RoostManager</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_home">Home</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="title_activity_sign_up">Sign Up</string>
+    <string name="title_activity_signup">Sign Up</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_changeInfo">Edit Profile</string>
+    <string name="login_button">Login</string>
+    <string name="join_button">Sign up</string>
+    <string name="post_button">Share</string>
+    <string name="take_pic_button">Take Photo</string>
+    <string name="save_button">Save</string>
+    <string name="practice_button">Practices (How To)</string>
+    <string name="calendar_button">Events Calendar</string>
+    <string name="reporting_button">Disease Reporting</string>
+    <string name="production_button">Production Management</string>
+    <string name="title_activity_reporting">Disease Reporting</string>
+    <string name="title_activity_info">Daily Produce</string>
+    <string name="title_activity_daily_production">DailyProductionActivity</string>
+    <string name="title_activity_physical_facility">PhysicalFacilityActivity</string>
+
+</resources>

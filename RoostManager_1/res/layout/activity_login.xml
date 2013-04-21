@@ -1,0 +1,67 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+ >
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+        >
+    </RelativeLayout>	
+    
+    <EditText 
+        android:id="@+id/userEdit"
+        android:inputType="text"
+        android:hint="Username"
+        style="@style/custEditText"
+        />
+    
+    
+    <EditText 
+        android:id="@+id/passEdit"
+        android:inputType="textPassword"
+        android:hint="Password"
+        style="@style/custEditText"
+        
+        />
+    
+    <Button
+        android:id="@+id/login"
+        style="@style/custButton1"
+        android:layout_marginTop="30dp"
+        android:onClick="loginListener"
+        android:text="@string/login_button" />
+    
+    <Button
+        android:id="@+id/signUp"
+        style="@style/custButton1"
+        android:layout_marginTop="30dp"
+        android:onClick="signUpListener"
+        android:text="@string/join_button" />
+    
+    <CheckBox 
+        android:id="@+id/remember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        style="@style/custTextView"
+        android:text="Remember me"
+        />
+     
+    <TextView
+        android:id="@+id/forgotPasswordView"
+        android:text="@string/forgot_password" 
+        android:layout_marginTop="30sp"
+        style="@style/custTextView"
+        android:clickable="true"
+        />
+</LinearLayout>
+</ScrollView>
